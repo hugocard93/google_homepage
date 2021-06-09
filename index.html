@@ -5,22 +5,50 @@
         margin-top: 250px; 
         margin-left: 800px;
 }
-    .search-bar {
-        margin-top: 10px; 
-        margin-left: 750px;
-        width: 20%;
-        border-radius: 10px;
-        box-shadow: 0px 0px;
-        box-sizing: border-box;
-    }
+    input {
+        border: none;
+        background :#f2f2f2;
+        border-radius: 20px;
+        width: 550px;
+        margin-left: 660px;
+        height: 30px;
+        }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  height: 30px;
+  margin: 100px
+        }
+        li {
+  float: left;
+}
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  height: 20px;
+  top: 0.5em;
+}
+
+        
 </style>
     <div class="logo">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
-    <input type="text" class="search-bar" />
-        </form>
-      </div>
+    <label class="custom-field">
+    <input type="text"/>
+    </label>
+
     <ul>
-        
-    </ul>
+        <li style="float:left"><a class="active" href="#about">About</a></li>
+        <li style="float:left"><a class="active" href="#store">Store</a></li>
+    <ul>
+        <li>Gmail</li>
+        <li>images</li>
+        <li>Sign in</li>
+      </ul> 
 </html>
