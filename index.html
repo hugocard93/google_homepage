@@ -15,9 +15,8 @@
         }
     ul {
       list-style-type: none;
-      margin: 0 auto;
-      padding: 0;
       font-size: 12px;
+      text-decoration: none;
     }
     li {
       display: inline-block;
@@ -26,6 +25,7 @@
       margin: 1px;
       position: absolute;
       top: 10px;
+      
     }
     .right-buttons {
       margin: 1px;
@@ -33,17 +33,56 @@
       top: 10px;
       right: 40px;
     }
-    
+    .Search-buttons {
+      display: inline-block;
+      margin-top: 10px;
+      border-radius: 0px;
+
+    }
+    .Search {
+      border-radius: 0px;
+      width: 110px;
+      padding: 1px;
+      left: 120px;
+      position: relative
+    }
+    .Lucky {
+      border-radius: 0px;
+      width: 110px;
+      right: 870px;
+      position: absolute;
+    }
+    .right-buttons-bot {
+      margin: 1px;
+      position: absolute;
+      top: 850px;
+      right: 40px;  
+    }
+    .left-buttons-bot {
+      margin: 1px;
+      position: absolute;
+      top: 850px;
+      left: 1px; 
+background-color: white;
 </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name name="description" content="The Odin Project - Google Homepage">
+</head>
 <body>
+  <main>
     <div class="logo">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
     <label class="custom-field">
-    <input type="text"/>
+    <input type="text">
     </label>
+    <div class="Search-buttons">
+        <input class="Search" value="Google Search">
+        <input class="Lucky" value="I'm feeling lucky">
+    </div>
 <header>
-  <nav>
+  <nav> 
     <ul class="left-buttons">
       <li><a href="#">About</a></li>
       <li><a href="#">Store</a></li>
@@ -55,7 +94,22 @@
     </ul>
   </nav>
 </header>
-
+</main>
+<footer>
+  <nav> 
+    <ul class="left-buttons-bot">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Advertising</a></li>
+      <li><a href="#">Business</a></li>
+      <li><a href="#">How Search Works</a></li>
+    </ul>
+    <ul class="right-buttons-bot">
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Setting</a></li>
+    </ul>
+  </nav>
+</footer>
 </body>
 
 </html>
